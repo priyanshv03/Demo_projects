@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.thapa2{
+  display: flex;
+  border : 2px;
+  border-radius: 10px;
+  justify-content: space-around;
+  margin: 10% 5%;
+  background-color: #e9f0f3;
+  /* color:grey; */
+font-size: 300%;
+
 }

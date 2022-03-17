@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Netflix from './component/Netflix';
+// import Thapa1 from './component/Thapa1';
+// import Thapa2 from './component/Thapa2';
+// import Thapa3 from './component/Thapa3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+{/* <Thapa1/>
+<Thapa2/>
+<Thapa3/> */}
+<Netflix/>
+    </>
   );
 }
 

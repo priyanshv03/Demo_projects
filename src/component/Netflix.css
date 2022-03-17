@@ -1,0 +1,41 @@
+
+.cards{
+    border-radius: 13px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 5% 10%;
+    background-color: #21302c;
+
+}
+.card{
+border: 2px solid green;
+border-spacing: 100%;
+border-radius: 13px;
+margin: 20px;
+
+}
+h1.heading{
+    text-align: center;
+    border-radius: 3px;
+    background-color: #21302c;
+    color: #e92f2f;
+    margin: 3% 10%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.details{
+   background-color: #a4bfc4;
+    
+}
+span.Adjective{
+    display: block;
+    text-align: center;
+    font-size: large;
+    color: red;
+    background-color: rgb(10, 24, 12);
+    margin: 20px 0;
+}
