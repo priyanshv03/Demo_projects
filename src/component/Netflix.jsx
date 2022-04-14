@@ -9,6 +9,7 @@ let Card =(props)=>{
        <div className="details">
            <span className='Adjective '>{props.Adjective}</span>
            <h3 className="card_title">{props.Title}</h3>
+           <h4>Time:{props.time}</h4>
         <a href="/">
             <button >Watch Now!</button>
         </a>
@@ -26,31 +27,36 @@ export default function Netflix() {
  <div className="cards">
      <Card Title = "The Snake"
            Adjective ="Netflix Premium Show"
-     />
-   <Card Title = "The Snake"
-           Adjective ="Netflix Premium Show"
+           time ="2:00 pm"
      />
      <Card Title = "The Snake"
-     Adjective ="Netflix Premium Show"
+           Adjective ="Netflix Premium Show"
+           time ="3:00 pm"
+     />
+     <Card Title = "The Snake"
+           Adjective ="Netflix Premium Show"
+           time ="1:00 pm"
      />
     <Card Title = "The Snake"
+          Adjective ="Netflix Premium Show"
+          time ="2:00 pm"
+     />
+     <Card Title = "The Snake"
            Adjective ="Netflix Premium Show"
      />
      <Card Title = "The Snake"
-     Adjective ="Netflix Premium Show"
+           Adjective ="Netflix Premium Show"
+     /> 
+     <Card Title = "The Snake"
+           Adjective ="Netflix Premium Show"
      />
      <Card Title = "The Snake"
            Adjective ="Netflix Premium Show"
-     /> <Card Title = "The Snake"
+     />
+     <Card Title = "The Snake"
            Adjective ="Netflix Premium Show"
      />
-      <Card Title = "The Snake"
-           Adjective ="Netflix Premium Show"
-     />
-      <Card Title = "The Snake"
-           Adjective ="Netflix Premium Show"
-     />
-      <Card Title = "The Snake"
+     <Card Title = "The Snake"
            Adjective ="Netflix Premium Show"
      />
            
